@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #topbar {
+    display: flex;
+    background-color: #780a99
+    }
+    
+  .logo{
+    display: flex;
+    padding: 5px;
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    font-size: 30px;
+    
+  }
+  
+  .searchbar {
+    padding-top: 18px;
+    padding-left: 40px;
+  
+  
+  }
+  
+  
+  .main {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/hero/Movies/2013/Now-You-See-Me-152500700-2550019-211119._V364141640_SX1080_.jpg");
+    background-repeat: no-repeat;
+    }
+  
+    .main, .description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: whitesmoke;
+  }
+  
+  .fullstory:hover {
+    color: grey;
+  }
+  
+  .centernav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #780a99;
+  }
+  
+  .nav:hover {
+    color: grey;
+  }
+  
+  .newsinfo {
+    border: 1px solid black;
+    padding-left: 100px;
+    background-color: whitesmoke;
+  
+  }
+  
+  .newsSec{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+  }
+  
+  .acquisition {
+    border: 1px solid black;
+  }
+  
+  .othernewstitle {
+    display: flex;
+    color: purple;
+    justify-content: flex-start;
+    padding-right: 5px;
+    }
+  
+  .newstext {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    color: purple;
+    padding: 5px;
+  
+  }
+  
+  p:hover {
+    color: lightpink
+  }
+  
+  p {
+    display: flex;
+    color: purple;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    }
+  
+  
+  
+  
+  
+  
+  
